@@ -1,19 +1,19 @@
 # Image Saver for Meteor
-Save images to server from url using npm [request](https://www.npmjs.com/package/request)
+Сохранение изображений на сервер по URL, используя npm [request](https://www.npmjs.com/package/request)
 
-## Instalation
+## Установка
 ```
-meteor add taehee:image-saver
+meteor add chuikoff:image-saver
 ```
 
-##Usage
+##Использование
 
 <pre>
 ImageSaver.download origin, destination, ->
 	console.log 'callback'
 </pre>
 
-Example
+##Пример
 
 <pre>
 ImageSaver.download imageUrl, process.env.PWD+'/uploads/google.png', ->
