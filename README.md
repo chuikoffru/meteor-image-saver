@@ -9,13 +9,15 @@ meteor add chuikoff:image-saver
 ##Использование
 
 <pre>
-ImageSaver.download origin, destination, ->
-	console.log 'callback'
+ImageSaver.download(origin, destination, function() {
+  return console.log('callback');
+});
 </pre>
 
 ##Пример
 
 <pre>
-ImageSaver.download imageUrl, process.env.PWD+'/uploads/google.png', ->
-	console.log 'callback'
+ImageSaver.download(imageUrl, process.env.PWD + '/uploads/google.png', function() {
+  return console.log('callback');
+});
 </pre>
