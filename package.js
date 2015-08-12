@@ -1,6 +1,6 @@
 Package.describe({
   name: 'chuikoff:image-saver',
-  version: '0.0.1',
+  version: '0.1.0',
   summary: 'Save images to server from url',
   git: 'https://github.com/chuikoffru/meteor-image-saver',
   documentation: 'README.md'
