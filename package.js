@@ -19,5 +19,5 @@ Package.onTest(function(api) {
 });
 
 Npm.depends({
-  'request': '2.55.0',
+  'request': '2.55.0'
 });
